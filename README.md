@@ -1,4 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a react template project with ESLint and airbnb style setup
+
+## Steps
+
+create-react-app xxx
+npm install eslint --save-dev
+npm install --save-dev eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
+npx eslint --init
+npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+
+VSC settings:
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+"source.fixAll": true
+},
+"eslint.alwaysShowStatus": true
 
 ## Available Scripts
 
